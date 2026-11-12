@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     480440692308641793       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "AND OUTPUT GATE"      # Project title
+  author:       "Adam Haq"      # Your name
+  discord:      "adao_h3"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Simple AND gate LED for Intro to ECSE"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -18,8 +18,8 @@ pinout:
   # Inputs
   ui[0]: ""
   ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[2]: "A"
+  ui[3]: "B"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
@@ -29,7 +29,7 @@ pinout:
   uo[0]: ""
   uo[1]: ""
   uo[2]: ""
-  uo[3]: ""
+  uo[3]: "A AND B"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
